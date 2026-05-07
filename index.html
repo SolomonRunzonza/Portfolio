@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solomon Runzonza | Cybersecurity Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background:#0f172a;
+      color:#e2e8f0;
+      line-height:1.6;
+    }
+
+    a{
+      color:#38bdf8;
+      text-decoration:none;
+    }
+
+    a:hover{
+      text-decoration:underline;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    header{
+      background:#111827;
+      padding:60px 0;
+      border-bottom:2px solid #1e293b;
+    }
+
+    .hero{
+      display:flex;
+      flex-direction:column;
+      gap:15px;
+    }
+
+    .hero h1{
+      font-size:3rem;
+      color:#f8fafc;
+    }
+
+    .hero h2{
+      color:#38bdf8;
+      font-weight:400;
+      font-size:1.3rem;
+    }
+
+    .hero p{
+      max-width:800px;
+      color:#cbd5e1;
+    }
+
+    .buttons{
+      margin-top:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 22px;
+      margin-right:10px;
+      border-radius:8px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .primary{
+      background:#38bdf8;
+      color:#0f172a;
+    }
+
+    .primary:hover{
+      background:#0ea5e9;
+    }
+
+    .secondary{
+      border:1px solid #38bdf8;
+      color:#38bdf8;
+    }
+
+    .secondary:hover{
+      background:#1e293b;
+    }
+
+    section{
+      padding:60px 0;
+      border-bottom:1px solid #1e293b;
+    }
+
+    section h2{
+      margin-bottom:25px;
+      color:#38bdf8;
+      font-size:2rem;
+    }
+
+    .card{
+      background:#111827;
+      padding:25px;
+      border-radius:12px;
+      margin-bottom:20px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-4px);
+      border:1px solid #38bdf8;
+    }
+
+    .skills-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    li{
+      margin-bottom:10px;
+    }
+
+    .certs{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    footer{
+      text-align:center;
+      padding:40px 0;
+      color:#94a3b8;
+    }
+
+    .contact p{
+      margin-bottom:10px;
+    }
+
+    @media(max-width:768px){
+      .hero h1{
+        font-size:2.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container hero">
+
+    <h1>Solomon Runzonza</h1>
+
+    <h2>Cybersecurity | IT Infrastructure | Network Security</h2>
+
+    <p>
+      Tech-savvy and results-oriented cybersecurity professional with experience
+      in cloud security, network infrastructure, vulnerability assessment,
+      penetration testing, and secure systems administration.
+      Passionate about protecting enterprise environments and building secure,
+      scalable IT systems.
+    </p>
+
+    <div class="buttons">
+      <a class="btn primary" href="Solomon_Runzonza_Resume.pdf" target="_blank">
+        Download Resume
+      </a>
+
+      <a class="btn secondary" href="https://linkedin.com" target="_blank">
+        LinkedIn
+      </a>
+
+      <a class="btn secondary" href="https://github.com" target="_blank">
+        GitHub
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<section>
+  <div class="container">
+
+    <h2>About Me</h2>
+
+    <div class="card">
+      <p>
+        I am currently pursuing a Master’s degree in Cybersecurity at
+        Quinnipiac University with a strong interest in IT infrastructure,
+        network security, cloud security, and threat detection.
+        My technical background combines hands-on cybersecurity labs,
+        AWS cloud projects, penetration testing, and systems administration.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <h2>Certifications</h2>
+
+    <div class="certs">
+
+      <div class="card">
+        <h3>AWS Certified Solutions Architect – Associate</h3>
+        <p>AWS</p>
+      </div>
+
+      <div class="card">
+        <h3>CompTIA Security+</h3>
+        <p>CompTIA</p>
+      </div>
+
+      <div class="card">
+        <h3>Cisco CCNA</h3>
+        <p>Cisco</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="card">
+        <h3>Programming & Scripting</h3>
+        <p>Python, SQL, PowerShell, Bash, PHP, DuckyScript</p>
+      </div>
+
+      <div class="card">
+        <h3>Penetration Testing</h3>
+        <p>Nmap, Metasploit, Kali Linux, BloodHound, Gobuster, Nessus</p>
+      </div>
+
+      <div class="card">
+        <h3>Network Security</h3>
+        <p>Suricata, pfSense, Splunk, AWS Security Groups</p>
+      </div>
+
+      <div class="card">
+        <h3>Frameworks & Standards</h3>
+        <p>NIST CSF, ISO 27001, MITRE ATT&CK, HIPAA, PCI DSS</p>
+      </div>
+
+      <div class="card">
+        <h3>Networking</h3>
+        <p>TCP/IP, DNS, HTTPS, VLANs, OSPF, SSH, Ethernet</p>
+      </div>
+
+      <div class="card">
+        <h3>Cybersecurity Labs</h3>
+        <p>TryHackMe, Hack The Box, Blue Team Labs, VulnHub</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>AWS Insider Threat Detection Program</h3>
+
+      <p>
+        Designed and implemented a cloud-based insider threat detection
+        framework using AWS services including CloudTrail, CloudWatch,
+        Lambda, DynamoDB, SNS, and GuardDuty.
+      </p>
+
+      <ul>
+        <li>Monitored anomalous user activity and suspicious access patterns</li>
+        <li>Implemented risk scoring and alert escalation</li>
+        <li>Performed threat modeling and mitigation analysis</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Penetration Testing – GreyMatter IT</h3>
+
+      <p>
+        Conducted internal and external penetration testing against enterprise
+        systems and network services.
+      </p>
+
+      <ul>
+        <li>Performed reconnaissance and vulnerability scanning</li>
+        <li>Validated exploitation paths using industry-standard tools</li>
+        <li>Supported remediation and security posture improvement</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Computer Science Teacher — Nzvikisa Group of Schools</h3>
+
+      <p><strong>2023 – 2024</strong></p>
+
+      <ul>
+        <li>Delivered programming and cybersecurity instruction to students</li>
+        <li>Designed and implemented a functional LAN infrastructure</li>
+        <li>Supported secure digital learning environments</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Systems Administrator Intern — Wozatel</h3>
+
+      <p><strong>2021</strong></p>
+
+      <ul>
+        <li>Performed system patching and vulnerability checks</li>
+        <li>Monitored network/system logs for suspicious activity</li>
+        <li>Supported rapid incident escalation and mitigation</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container contact">
+
+    <h2>Contact</h2>
+
+    <div class="card">
+
+      <p><strong>Email:</strong> solomonrunzonza@outlook.com</p>
+
+      <p><strong>Phone:</strong> 203-668-9742</p>
+
+      <p>
+        <strong>LinkedIn:</strong>
+        <a href="https://linkedin.com" target="_blank">
+          Add Your LinkedIn URL
+        </a>
+      </p>
+
+      <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com" target="_blank">
+          Add Your GitHub URL
+        </a>
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Solomon Runzonza | Cybersecurity Portfolio</p>
+  </div>
+</footer>
+
+</body>
+</html>
